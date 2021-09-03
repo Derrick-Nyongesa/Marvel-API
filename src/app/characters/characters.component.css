@@ -1,0 +1,19 @@
+img{
+    width: 420px;
+    height: 420px;
+    
+}
+
+.character{
+    margin-right: 60px;
+    margin-bottom: 60px;
+    border: #e5383b solid 5px;
+    padding: 20px;
+}
+
+.highlight{
+    background-color: #e5383b;
+    padding: 10px 0; 
+    color: white;
+    font-weight: bold;
+}

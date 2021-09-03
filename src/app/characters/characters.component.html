@@ -1,6 +1,19 @@
-<div class=''>
-    <a *ngFor='let character of characters' class='items' class="w3-animate-zoom w3-animate-opacity">
-        <img src={{character.thumbnail.path}}.{{character.thumbnail.extension}}>
-        <h4 style="text-align: center;">{{character.name}}</h4>
-    </a>
+<div class="container">
+    <br><h1 class="text-center">Featured Marvel characters</h1><br><br>
+  
+    
+    <div class="row">
+        
+            <div *ngFor='let character of characters' class="col-md-5 character">
+                <h2 style="text-align: center;" class="highlight">{{character.name}}</h2>
+                    <img src={{character.thumbnail.path}}.{{character.thumbnail.extension}}>
+                    <p>{{character.description}}</p>
+                
+                
+                
+            </div>
+       
+        
     </div>
+</div>
+
